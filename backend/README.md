@@ -14,41 +14,6 @@ MyRoomie is a mobile application designed to help users find roommates based on 
 - Match system based on user preferences
 - Geospatial data handling for heatmaps
 
-## Project Structure
-```
-backend/
-├── app/
-│   ├── __init__.py
-│   ├── auth/
-│   │   ├── __init__.py
-│   │   ├── jwt.py
-│   │   └── routes.py
-│   ├── config.py
-│   ├── database.py
-│   ├── main.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── location.py
-│   │   ├── match.py
-│   │   ├── room.py
-│   │   └── user.py
-│   ├── routes/
-│   │   ├── __init__.py
-│   │   ├── matches.py
-│   │   ├── rooms.py
-│   │   └── users.py
-│   └── schemas/
-│       ├── __init__.py
-│       ├── location.py
-│       ├── match.py
-│       ├── room.py
-│       └── user.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-```
-
 ## Setup Instructions
 
 ### Prerequisites
