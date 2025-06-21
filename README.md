@@ -14,41 +14,6 @@ The frontend is built using React Native with Expo, providing a seamless experie
 - **Map View**: A component that displays a map with heatmaps for room availability.
 - **Match System**: Users can view potential matches based on their preferences.
 
-#### Frontend Directory Structure
-
-```
-frontend
-├── App.js
-├── app.json
-├── assets
-│   └── images
-├── babel.config.js
-├── components
-│   ├── AuthComponents.js
-│   ├── MapView.js
-│   ├── MatchCard.js
-│   └── RoomCard.js
-├── navigation
-│   ├── AppNavigator.js
-│   ├── AuthNavigator.js
-│   └── index.js
-├── package.json
-├── screens
-│   ├── AuthScreens
-│   │   ├── LoginScreen.js
-│   │   └── RegisterScreen.js
-│   ├── HomeScreen.js
-│   ├── MapScreen.js
-│   ├── MatchesScreen.js
-│   └── ProfileScreen.js
-├── services
-│   ├── api.js
-│   └── authService.js
-├── .env.example
-├── .gitignore
-└── README.md
-```
-
 ### Backend
 
 The backend is built using FastAPI, providing a robust API for handling user authentication, room management, and match functionalities. Key features include:
@@ -56,44 +21,6 @@ The backend is built using FastAPI, providing a robust API for handling user aut
 - **User Authentication**: Endpoints for user registration and login.
 - **Room Management**: Endpoints for publishing and retrieving room listings.
 - **Match System**: Endpoints for fetching potential matches based on user preferences.
-
-#### Backend Directory Structure
-
-```
-backend
-├── app
-│   ├── __init__.py
-│   ├── auth
-│   │   ├── __init__.py
-│   │   ├── jwt.py
-│   │   └── routes.py
-│   ├── config.py
-│   ├── database.py
-│   ├── main.py
-│   ├── models
-│   │   ├── __init__.py
-│   │   ├── location.py
-│   │   ├── match.py
-│   │   ├── room.py
-│   │   └── user.py
-│   ├── routes
-│   │   ├── __init__.py
-│   │   ├── matches.py
-│   │   ├── rooms.py
-│   │   └── users.py
-│   └── schemas
-│       ├── __init__.py
-│       ├── location.py
-│       ├── match.py
-│       ├── room.py
-│       └── user.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-```
-
-## Getting Started
 
 ### Prerequisites
 
@@ -129,23 +56,6 @@ backend
    ```
    uvicorn app.main:app --reload
    ```
-
-## Environment Variables
-
-Both the frontend and backend require environment variables for configuration. Example files are provided as `.env.example` in each directory.
-
-### Frontend `.env.example`
-
-```
-API_URL=http://localhost:8000/api
-```
-
-### Backend `.env.example`
-
-```
-DATABASE_URL=postgresql://user:password@localhost/myroomie
-SECRET_KEY=your_secret_key
-```
 
 ## License
 
