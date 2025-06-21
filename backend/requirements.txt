@@ -1,0 +1,11 @@
+FastAPI
+uvicorn
+sqlalchemy
+asyncpg
+psycopg2-binary
+pydantic
+python-jose
+geopy
+geoalchemy2
+postgis
+dotenv

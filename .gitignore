@@ -1,0 +1,30 @@
+# Node modules for frontend
+frontend/node_modules/
+frontend/.expo/
+frontend/npm-debug.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.key
+frontend/*.mobileprovision
+frontend/*.orig.*
+frontend/web-build/
+
+# Python environment files for backend
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Database files
+*.db
+*.sqlite3
+
+# OS specific files
+.DS_Store
+Thumbs.db
